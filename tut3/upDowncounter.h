@@ -1,4 +1,4 @@
-* /
+
 
 #include <iostream>
 #include <Windows.h>
@@ -8,7 +8,7 @@ using namespace std;
 #ifndef UPDOWNCOUNTER_H
 #define UPDOWNCOUNTER_H
 
-class UpDownCounter
+class upDowncounter
 {
 private:
 
@@ -16,7 +16,7 @@ private:
 
 public:
 
-	UpDownCounter();
+	upDowncounter();
 	void count();
 	void count(int, int, int, int);
 
